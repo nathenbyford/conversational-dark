@@ -1,0 +1,253 @@
+{
+  "name": "Claude Dark",
+  "type": "dark",
+  "colors": {
+    // Editor colors
+    "editor.background": "#1a1a1a",
+    "editor.foreground": "#e8e8e8",
+    "editor.lineHighlightBackground": "#2a2a2a",
+    "editor.selectionBackground": "#404040",
+    "editor.selectionHighlightBackground": "#353535",
+    "editor.findMatchBackground": "#664422",
+    "editor.findMatchHighlightBackground": "#553311",
+    
+    // Sidebar and panels
+    "sideBar.background": "#141414",
+    "sideBar.foreground": "#cccccc",
+    "sideBar.border": "#2a2a2a",
+    "activityBar.background": "#0f0f0f",
+    "activityBar.foreground": "#d97757",
+    "activityBar.activeBorder": "#d97757",
+    
+    // Panel colors
+    "panel.background": "#161616",
+    "panel.border": "#2a2a2a",
+    "terminal.background": "#1a1a1a",
+    "terminal.foreground": "#e8e8e8",
+    
+    // Status bar
+    "statusBar.background": "#d97757",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.noFolderBackground": "#d97757",
+    
+    // Title bar
+    "titleBar.activeBackground": "#0f0f0f",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#141414",
+    
+    // Tabs
+    "tab.activeBackground": "#1a1a1a",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#141414",
+    "tab.inactiveForeground": "#999999",
+    "tab.border": "#2a2a2a",
+    
+    // Input and dropdowns
+    "input.background": "#2a2a2a",
+    "input.foreground": "#ffffff",
+    "input.border": "#404040",
+    "dropdown.background": "#2a2a2a",
+    "dropdown.foreground": "#ffffff",
+    
+    // Lists and trees
+    "list.activeSelectionBackground": "#404040",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#2a2a2a",
+    "list.inactiveSelectionBackground": "#353535",
+    
+    // Scrollbars
+    "scrollbarSlider.background": "#404040",
+    "scrollbarSlider.hoverBackground": "#555555",
+    "scrollbarSlider.activeBackground": "#666666"
+
+    // Welcome screen and remote connection elements
+    "welcomePage.tileBackground": "#2a2a2a",
+    "welcomePage.tileBorder": "#404040",
+    "welcomePage.progress.background": "#404040",
+    "welcomePage.progress.foreground": "#7eb6d9",
+    
+    // Button colors (affects "Open Folder", "Clone Repository" buttons)
+    "button.background": "#7eb6d9",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#6ba3c7",
+    "button.secondaryBackground": "#404040",
+    "button.secondaryForeground": "#7eb6d9",
+    "button.secondaryHoverBackground": "#4a4a4a",
+    
+    // Remote indicator (SSH connection icon in corner)
+    "statusBarItem.remoteBackground": "#7eb6d9",
+    "statusBarItem.remoteForeground": "#ffffff",
+    "statusBarItem.remoteHoverBackground": "#6ba3c7",
+    
+    // Activity bar badges and indicators
+    "activityBarBadge.background": "#7eb6d9",
+    "activityBarBadge.foreground": "#ffffff",
+    
+    // Additional remote/connection related colors
+    "ports.iconRunningProcessForeground": "#7eb6d9",
+    "statusBarItem.prominentBackground": "#7eb6d9",
+    "statusBarItem.prominentForeground": "#ffffff",
+    "statusBarItem.prominentHoverBackground": "#6ba3c7"
+  },
+  
+  "tokenColors": [
+    // Comments
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#888888",
+        "fontStyle": "italic"
+      }
+    },
+    
+    // Keywords (if, for, while, function, etc.)
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#d97757",
+        "fontStyle": "bold"
+      }
+    },
+    
+    // Function names and definitions
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#7eb6d9"
+      }
+    },
+    
+    // Strings
+    {
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#90c695"
+      }
+    },
+    
+    // Numbers
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#e8a87c"
+      }
+    },
+    
+    // Variables and parameters
+    {
+      "scope": [
+        "variable",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#e8e8e8"
+      }
+    },
+    
+    // Constants and built-ins
+    {
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape"
+      ],
+      "settings": {
+        "foreground": "#c7a7d9"
+      }
+    },
+    
+    // Operators
+    {
+      "scope": [
+        "keyword.operator",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    
+    // Class names and types
+    {
+      "scope": [
+        "entity.name.class",
+        "entity.name.type",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#f0c674"
+      }
+    },
+    
+    // Attributes and properties
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#81c784"
+      }
+    },
+    
+    // R-specific: pipe operator
+    {
+      "scope": [
+        "keyword.operator.pipe.r"
+      ],
+      "settings": {
+        "foreground": "#d97757",
+        "fontStyle": "bold"
+      }
+    },
+    
+    // R-specific: assignment operators
+    {
+      "scope": [
+        "keyword.operator.assignment.r"
+      ],
+      "settings": {
+        "foreground": "#d97757"
+      }
+    },
+    
+    // Python-specific: decorators
+    {
+      "scope": [
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#c7a7d9"
+      }
+    },
+    
+    // Python-specific: self parameter
+    {
+      "scope": [
+        "variable.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#d97757",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
