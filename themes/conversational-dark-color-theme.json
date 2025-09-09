@@ -13,7 +13,7 @@
     
     // Sidebar and panels
     "sideBar.background": "#141414",
-    "sideBar.foreground": "#cccccc",
+    "sideBar.foreground": "#d97757",
     "sideBar.border": "#2a2a2a",
     "activityBar.background": "#0f0f0f",
     "activityBar.foreground": "#d97757",
@@ -26,7 +26,7 @@
     "terminal.foreground": "#e8e8e8",
     
     // Status bar
-    "statusBar.background": "#d97757",
+    "statusBar.background": "#1a1a1a",
     "statusBar.foreground": "#ffffff",
     "statusBar.noFolderBackground": "#d97757",
     
@@ -123,7 +123,8 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#7eb6d9"
+        "foreground": "#7eb6d9",
+        "fontStyle": "italic"
       }
     },
     

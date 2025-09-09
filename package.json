@@ -1,0 +1,21 @@
+{
+  "name": "conversational-dark",
+  "displayName": "conversational dark",
+  "description": "A dark theme with warm accents for Positron IDE and VS Code, inspired by modern AI chat interfaces.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "conversational-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/conversational-dark-color-theme.json"
+      }
+    ]
+  }
+}
