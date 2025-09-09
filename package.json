@@ -3,7 +3,7 @@
   "displayName": "Conversational Dark",
   "publisher": "nathenbyford",
   "description": "A dark theme with warm accents for Positron IDE and VS Code, inspired by modern AI chat interfaces.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.90.0"
   },
