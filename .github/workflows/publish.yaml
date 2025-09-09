@@ -2,8 +2,7 @@ name: Publish Conversational Dark (Open VSX)
 
 on:
   push:
-    tags:
-      - "v*"
+    branches: [ main ]
 
 jobs:
   publish:
