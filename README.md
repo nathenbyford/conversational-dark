@@ -26,10 +26,7 @@ Balanced contrasts, warm highlights, and subtle accents designed for long coding
 
 ## Installation
 
-### From Open VSX (Positron, VSCodium, etc.)
-1. Open the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
-2. Search for **Conversational Dark**.
-3. Click **Install**.
+This extension is availible for free on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NathenByford.conversational-dark) and [Open VSX Registry](https://open-vsx.org/extension/nathenbyford/conversational-dark).
 
 ---
 
