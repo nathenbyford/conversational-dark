@@ -20,9 +20,8 @@ jobs:
           cache: "npm"
 
       - run: npm ci
-      - run: npm i -g ovsx @vscode/vsce
+      - run: npm i -g ovsx@latest @vscode/vsce@latest
 
-      # Build a .vsix (optional; ovsx can publish from folder too)
       - run: npm run build
 
       # Publish to Open VSX (needs repo secret OVSX_PAT)
