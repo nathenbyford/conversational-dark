@@ -393,6 +393,19 @@
       "settings": {
         "foreground": "#81c784"
       }
+    },
+
+    // Markdown: Headings
+    {
+      "scope": [
+        "markup.heading",
+        "entity.name.section.markdown",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#c7a7d9",
+        "fontStyle": "bold"
+      }
     }
   ]
 }
